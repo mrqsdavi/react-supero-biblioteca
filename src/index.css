@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root, .ant-layout {
+  height: 100%;
+}
+
+.contentLayout {
+  padding: 0 24px 24px;
+}
+
+.header{
+  background: white !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  max-height: 42px;
+  margin-right: 30px;
+}
+
+.site-layout-background {
+  padding: 24px;
+  margin: 0;
+  height: 100%;
+}
