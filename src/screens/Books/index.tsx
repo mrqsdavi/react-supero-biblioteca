@@ -84,7 +84,7 @@ const Books: React.FC = () => {
           <DatePicker picker="year" onChange={(date) => {
             dispatch(changeSearch(1, {
               ...searchData,
-              AnoFinal: date?.get('year') || 0
+              AnoFinal: date?.get('year') || 5000
             }))
           }} />
         </DatesWrapper>
