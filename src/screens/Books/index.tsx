@@ -88,7 +88,7 @@ const Books: React.FC = () => {
             }))
           }} />
         </DatesWrapper>
-
+        <Typography.Text><strong>{totalCount} resultados encontrados</strong></Typography.Text>
       </TableTopWrapper>
       <Table
         loading={loading}
